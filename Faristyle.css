@@ -1,0 +1,1137 @@
+body {
+    
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+
+.background_video {
+    position: absolute;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.empty_div {
+    width: 100%;
+    height: 80px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* Page left pane css */
+
+#left_pane {
+    width: 23%;
+    height: 550px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 30px;
+    position: fixed;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.left_pane_name {
+display: flex;
+}
+
+.left_pane_name h1{
+    color: white;
+    width: 15%;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.left_pane_name sup {
+    border: 1px solid white;
+    color: white;
+    border-radius: 80%;
+    height:18px;
+    font-size: 12px;
+    margin: 0px 0  0 50px;
+    padding: 2px 4px;
+}
+
+.left_pane_developer_text {
+    color: white;
+    width: 100%;
+    text-align: end;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.left_pane_img {
+ display: flex;
+ justify-content: center;
+}
+
+.left_pane_img img{
+    height: 200px;
+    width:80%;
+    border-radius: 30px;
+    background-color: #2be98dab;
+    margin: 20px 0;
+}
+
+.left_pane_email h4{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 100;  
+}
+
+.left_pane_email p{
+    color: rgb(209, 181, 181);
+    text-align: center;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+#social_icons {
+text-align: center;
+}
+
+#social_icons i{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    padding: 8px 10px;
+    margin: 5px;
+}
+#left_pane_btn {
+    width: 100%;
+    background-color:#28e98c;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px 0;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border: none;
+}
+
+#left_pane_btn:hover {
+    width: 100%;
+    background-color:#28e98c00;
+    border: 1px solid #41cf8b;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px 0;
+    color: #28e98c;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+/* Right pane css */
+
+#right_pane {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    height: 20%;
+    align-items: center;
+}
+
+#right_pane ul{
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 20px;
+    margin: 350px 20px 0;
+}
+
+#right_pane ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding:15px 10px 15px;
+}
+
+
+#right_pane a{
+    color: rgb(194, 194, 194);
+}
+
+#right_pane a:hover {
+    color: #28e98c;
+}
+ .active > #right_pane a { 
+    color: #28e98c; 
+}
+
+/* Center pane CSS style */
+
+#center_pane {
+    width:57%;
+    margin-left: 30%;
+}
+
+#center_pane .introduce {
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 17%;
+    font-size: 17px;
+    padding: 7px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom:50px;
+}
+
+#center_pane .hi_from_farhan{
+    color: white;
+    margin: 20px 0px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+
+#center_pane .i_design_and_code_beautifully{
+    color: rgb(190, 169, 169);
+    font-weight: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 57%;
+}
+
+#center_pane .my_project_wheel{
+    max-width:190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid white;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#center_pane .round_txt {
+    animation: rotating 6s infinite linear;
+    height: 195px;
+    padding: 13px;
+}
+
+.my_project_wheel .fa{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 100;
+    position: absolute;
+    text-align: center;
+}
+
+.experience{
+display: flex;
+gap: 130px;
+margin: 90px 0;
+}
+
+.ten_plus_experience{
+    width: 15%;
+}
+
+.ten_plus_experience .hadr {
+    font-size: 80px;
+    color: white;
+    
+}
+
+.ten_plus_experience p{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.one_eighty_six_plus_experience {
+    width: 15%;
+}
+.one_eighty_six_plus_experience .hadr {
+    font-size: 80px;
+    color: white;  
+    
+}
+.one_eighty_six_plus_experience p{
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+/* Center pane about section css */
+
+#center_pane .about{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 17%;
+    font-size: 15px;
+    padding: 0px 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 70px;
+    font-family: 'Times New Roman';
+}
+
+#about {
+    width: 80%;
+    margin-bottom: 200px;
+}
+
+#about h3 {
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+#about span {
+    color:#28e98c;
+}
+
+#about p{
+    font-size: 20px;
+    color: rgb(223, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+/* Resume section css */
+
+.resume {
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 17%;
+    font-size: 17px;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 100px 0;
+}
+
+#resume .edu_txt,.exp_txt {
+    font-size: 40px;
+    color: #28e98c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+#resume li{
+    color: white;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+#resume p{
+    color: white;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* Services Section */
+
+
+.services{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 18%;
+    font-size: 17px;
+    padding: 5px 8px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 200px 0 70px;
+}
+.specialization_txt {
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.specialization_txt span{
+    font-size: 40px;
+    color: #28e98c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+#services .web_design {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 100px 40px;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.web_design_txt_icon {
+    display: flex;
+    align-items: center;
+}
+
+.web_design_txt_icon h4{
+    width: 80%;
+    color: white;
+    font-size: 40px;
+}
+
+.web_design_txt_icon span{
+    width: 20%;
+    color: #28e98c;
+    font-size: 50px;
+    text-align: right;
+}
+
+
+.web_design p{
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#services .development {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 100px 40px;
+    margin: 40px 0;
+    align-items: center;
+}
+
+
+.web_develop_txt_icon {
+    display: flex;
+    align-items: center;
+}
+.web_develop_txt_icon h4{
+    width: 80%;
+    color: white;
+    font-size: 40px;
+}
+.web_develop_txt_icon span{
+    width: 20%;
+    color: #28e98c;
+    font-size: 50px;
+    text-align: right;
+}
+
+.development p{
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+/* skills section */
+
+.skills{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 19%;
+    font-size: 17px;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 200px 0 70px;
+}
+
+#skills .skills_txt{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.skills_txt span{
+    font-size: 40px;
+    color: #28e98c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.bubbles {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 70px 0;
+    align-items: center;
+}
+
+#skills .html {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    max-width: 150px;
+    border: 1px solid white;
+    border-radius:50%;
+    text-align: center;
+    padding: 30px;
+}
+
+#skills .css {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    max-width: 140px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+#skills .js {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    max-width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px 5px;
+}
+
+#skills .wordpress {
+    color: white;
+    font-size: 33px;
+    display: flex;
+    max-width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px 5px;
+}
+
+.project {
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 19%;
+    font-size: 17px;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 200px 0 70px;
+}
+
+.project_txt{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.project_txt span{
+    font-size: 40px;
+    color: #28e98c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.project1 {
+    width: 40%;
+}
+
+.project2 {
+    width: 50%;
+}
+
+
+.contact_us{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 19%;
+    font-size: 17px;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 100px 0 70px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    column-gap: 150px;
+    color: #ffffff;
+}
+
+#contact_name {
+    width: 30%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#company_name {
+    width: 30%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#email{
+    width: 30%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#number{
+    width: 30%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+#message{
+    width: 75%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.contact_form button{
+color:black;
+text-decoration: none;
+}
+
+#btn_submit{
+    padding: 15px;
+    font-weight: 300;
+    background-color: #28e98c;
+    border: none;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 90px;
+}
+
+#btn_submit:hover {
+    padding: 15px;
+    font-weight: 300;
+    border: 2px solid #28e98c;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    background-color: transparent;
+    color: #28e98c;
+    border-radius: 90px;
+}
+
+input, textarea {
+    color: rgb(247, 247, 247);
+    }
+
+
+
+    @media (min-width: 360px) and (max-width: 785px) {
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .flex_for_media_query{
+            display: flex;
+        }
+        .empty_div {
+            height: 30px;
+        }
+
+        #left_pane {
+            width: 75%;
+            margin: 20px 10px 0 10px;
+            position: unset;
+            height: 510px;
+        }
+
+        .left_pane_name h1{
+            margin-top: 5px;
+            width: 10%;
+            font-size: 20px;
+        }
+
+        .left_pane_name sup {
+            height:15px;
+            font-size: 10px;
+            padding: 2px 3px;
+            margin-left: 40px;
+        }
+        
+        .left_pane_developer_text {
+            font-size: 20px;
+        }
+
+        .left_pane_img img{
+            height: 180px;
+            max-width: 200px;
+        }
+
+        .left_pane_email h4{
+            font-size: 20px;
+        }
+        #social_icons i{
+            font-size: 20px;
+            padding: 6px 8px;
+            
+        }
+        #left_pane_btn:hover {
+            background-color:#28e98c00;
+            border: 1px solid #41cf8b;
+            color: #28e98c;
+        }
+
+        #right_pane ul li{
+            font-size: 18px;
+            padding:10px 5px;
+        }
+
+        #center_pane{
+            width: 85%;
+            margin: 20px 10px 0 10px;
+        }
+        
+        #center_pane .introduce {
+            width:45%;
+        }
+        #center_pane .hi_from_farhan{
+        font-size: 38px;
+        }
+        #center_pane .i_design_and_code_beautifully {
+            width: 95%;
+            margin: 30px 0;
+            font-size: 15px;
+        }
+
+        #center_pane .my_project_wheel{
+            margin-right: 100px;
+        }
+
+        .ten_plus_experience {
+            width: 10%;
+        }
+
+        .ten_plus_experience .hadr {
+            font-size: 50px;
+        }
+
+        .one_eighty_six_plus_experience {
+            width: 10%;
+        }
+
+
+        .one_eighty_six_plus_experience .hadr {
+            font-size: 50px;
+            margin-left: 0px;
+        }
+        
+        #center_pane .about {
+            width: 40%;
+        }
+
+        #center_pane .about_hadr {
+            font-size: 27px;
+        }
+
+        #center_pane .about_txt {
+            font-size: 18px;
+            width: 110%;
+        }
+
+        #center_pane .resume {
+            width: 38%;
+        }
+
+        .resume_body {
+            margin-left: 20px;
+        }
+        #resume p{
+            font-size: 28px;
+        }
+
+        #center_pane .services {
+            width: 38%;
+        }
+
+        .specialization_txt {
+            font-size: 30px;
+             
+        }
+        
+        .specialization_txt span{
+            font-size: 30px;
+             
+        }
+
+        #services .web_design {
+            width: 10%;
+            padding: 0;
+        }
+        
+
+        .web_design_txt_icon h4 {
+            font-size: 20px;
+        }
+
+        .web_design_txt_icon span {
+            font-size: 25px;
+        }
+
+        .web_design p {
+            font-size: 17px;
+        }
+
+        #services .web_design {
+            padding: 50px 20px;
+            width: 95%;
+        }
+
+        .web_develop_txt_icon h4 {
+            font-size: 20px;
+        }
+
+        .web_develop_txt_icon span {
+            font-size: 30px;
+        }
+
+        .development p {
+            font-size: 17px;
+        }
+
+        #services .development {
+            padding: 50px 20px;
+            width: 95%;
+        }
+
+        .skills {
+            width: 45%;
+        }
+
+        #skills .skills_txt{
+            font-size: 30px;
+        }
+
+        .skills_txt span{
+            font-size: 30px;
+        }
+
+        
+        .bubbles {
+            flex-wrap: wrap;
+            width: 80%;
+            gap: 13%;
+        }
+
+        .bubbles i{
+            font-size: 35px;
+        }
+
+
+        #skills .html{
+            width: 40%;
+            font-size: 25px;
+            padding: 30px 22px;
+            border: 1px solid white;
+            border-radius:50% ;
+        }
+
+        #skills .css{
+            width: 40%;
+            font-size: 25px;
+            padding: 30px 22px;
+            border: 1px solid white;
+            border-radius:50% ;
+        }
+
+        #skills .js{
+            width: 40%;
+            font-size: 22px;
+            padding: 40px 0px;
+            border: 1px solid white;
+            border-radius:50% ;
+            margin-top: 30px;
+        }
+
+        #skills .wordpress{
+            width: 42%;
+            font-size: 22px;
+            padding: 40px 0px;
+            border: 1px solid white;
+            border-radius:50% ;
+            margin-top: 30px;
+        }
+
+        .project {
+            width: 38%;
+        }
+
+        .project_txt{
+            font-size: 30px;
+        }
+        
+        .project_txt span{
+            font-size: 30px;
+        }
+
+        .project3 , .project4{
+            width: 90%;
+        }
+        .contact_us {
+            width: 48%;
+            
+        }
+
+        .contact_us .contact_form {
+            width: 90%;
+            gap: 10px;
+            text-align: left;
+        }
+
+        #contact_name {
+            width: 80%;
+            padding: 10px 0px;
+            
+        }
+        #company_name {
+            width: 80%;
+            padding: 10px 0px;
+            
+        }
+        #email{
+            width: 80%;
+            padding: 10px 0px;
+            
+        }
+        #number{
+            width: 80%;
+            padding: 10px 0px;
+            
+        }
+        #message{
+            width: 80%;
+            padding: 10px 0px;
+        }
+
+        #btn_submit {
+            width: 50%;
+        }
+
+        #btn_submit:hover {
+            width: 50%;
+        }
+
+    }
+
+
+    /* Media query for tablet */
+    @media (min-width: 786px) and (max-width: 1180px) {
+        
+        .empty_div {
+            height: 60px;
+        }
+
+        #left_pane {
+            width: 33%;
+        }
+        
+
+        .left_pane_name h1{
+            font-size: 25px;
+            font-weight: 300;
+        }
+
+        .left_pane_name sup {
+            height:16px;
+            font-size: 10px;
+            margin: 0px 0  0 40px;
+            padding: 2px 4px;
+        }
+        
+        .left_pane_developer_text {
+            font-size: 23px;
+            margin: 4px 0 0 35px;
+        }
+
+        .left_pane_img img{
+            max-width: 200px;
+           }
+           .left_pane_email h4{
+            font-size: 19px;
+        }
+
+        #social_icons i{
+            padding: 6px 7px ;
+        }
+
+        #center_pane {
+            width:53%;
+            margin-left: 40%;
+        }
+
+        #center_pane .introduce {
+            width:35%;
+        }
+
+        #center_pane .hi_from_farhan{
+            font-size: 51px;
+            }
+
+            #center_pane .i_design_and_code_beautifully {
+                width: 80%;
+                margin: 30px 0;
+                font-size: 20px;
+            }
+
+            #center_pane .my_project_wheel{
+                margin-right: 80px;
+            }
+
+            #center_pane .about {
+                width: 30%;
+            }
+
+            #center_pane .about_hadr {  
+                width: 120%;
+            }
+
+            #center_pane .about_txt { 
+                width: 120%;
+            }
+            #center_pane .resume {
+                width: 30%;
+            }
+            .resume_body {
+                margin-left: 20px;
+            }
+
+            #center_pane .services {
+                width: 30%;
+            }
+
+            #services .web_design {
+                padding: 50px 15px;
+                width: 95%;
+            }
+
+            .web_design_txt_icon h4 {
+                font-size: 25px;
+            }
+            .web_design_txt_icon span {
+                font-size: 30px;
+            }
+            .web_design p{
+                font-size: 20px;
+            }
+
+            .web_develop_txt_icon h4 {
+                font-size: 25px;
+            }
+    
+            .web_develop_txt_icon span {
+                font-size: 30px;
+            }
+    
+            .development p {
+                font-size: 20px;
+            }
+    
+            #services .development {
+                padding: 50px 15px;
+                width: 95%;
+            }
+
+            .skills {
+                width: 35%;
+            }
+            #skills .html{
+                width: 40%;
+                font-size: 22px;
+                padding: 40px;
+                border: 1px solid white;
+                border-radius:50% ;
+            }
+    
+            #skills .css{
+                width: 40%;
+                font-size: 22px;
+                padding: 40px;
+                border: 1px solid white;
+                border-radius:50%;
+            }
+    
+            #skills .js{
+                width: 40%;
+                font-size: 22px;
+                padding: 40px 20px;
+                border: 1px solid white;
+                border-radius:50% ;
+                
+            }
+    
+            #skills .wordpress{
+                width: 40%;
+                font-size: 22px;
+                padding: 40px 20px;
+                border: 1px solid white;
+                border-radius:50% ;               
+            }
+            .project {
+                width: 30%;
+            }
+            .project3 , .project4{
+                width: 90%;
+            }
+
+            .contact_us {
+                width: 35%;
+            }
+            .contact_form {
+                width: 100%;
+                gap: 40px;
+            }
+    
+            #contact_name {
+                width: 40%;               
+            }
+            #company_name {
+                width: 40%;
+            }
+            #email{
+                width: 40%;               
+            }
+            #number{
+                width: 40%;           
+            }
+            
+
+    }
