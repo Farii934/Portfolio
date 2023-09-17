@@ -1,7 +1,6 @@
 body {
-    
     position: relative;
-    
+    overflow-x: hidden;
 }
 
 
@@ -24,7 +23,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
 }
 
 
@@ -710,6 +709,9 @@ input, textarea {
             background-color:#28e98c00;
             border: 1px solid #41cf8b;
             color: #28e98c;
+        }
+        #right_pane {
+        width:70%;
         }
 
         #right_pane ul li{
