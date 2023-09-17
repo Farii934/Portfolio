@@ -1,6 +1,6 @@
 body {
     position: relative;
-    overflow-x: hidden;
+    
 }
 
 
@@ -707,7 +707,7 @@ input, textarea {
             color: #28e98c;
         }
         #right_pane {
-        width:100%;
+        width: 70%;
         }
 
         #right_pane ul li{
