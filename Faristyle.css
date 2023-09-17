@@ -657,10 +657,6 @@ input, textarea {
 
     @media (min-width: 360px) and (max-width: 785px) {
 
-        body {
-            overflow-x: hidden;
-        }
-
         .flex_for_media_query{
             display: flex;
         }
